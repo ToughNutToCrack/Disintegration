@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DisintegrationSnow
+  m_Shader: {fileID: 4800000, guid: 58243724b3342014cb0798915a2db62b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 7a6d4a53269a71d489c107f6d5cb0389, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 34c086d98af62ca4f98c835081554a71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: bec1fbfee40fa80458dc94ad1f0c153a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shape:
+        m_Texture: {fileID: 2800000, guid: 8c842b7257764fd4b89e1e72fd8400c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amplitude: 1
+    - _Animate: 0
+    - _BumpStr: 0.21
+    - _DissolveBorder: 0.03
+    - _Exapnd: 3.52
+    - _Glow: 0.67
+    - _Metallic: 0.5
+    - _Period: 1
+    - _SpeedY: 1
+    - _Weight: 0.383
+    - _ptlRadius: 0.39
+    m_Colors:
+    - _AmbientColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0, g: 4.6, b: 0, a: 0}
+    - _DisintegrationColor: {r: 3.375481, g: 3.375481, b: 3.375481, a: 1}
+    - _DissolveColor: {r: 0.4278213, g: 0.4293191, b: 0.4339623, a: 1}
+  m_BuildTextureStacks: []
